@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+label {
+    color: #fff;
+}
+
+.box{
+	width: 400px;
+	padding: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background:#222;
+    border-radius: 10px;
+}
+
+.text {
+    border: 0;
+    background: none;
+    display: inline-flex;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid;
+    padding: 5px 5px;
+    width: auto;
+    outline: none;
+    border-color: #777;
+    border-radius: 10px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.text:focus {
+    color: #000;
+}
+
+.box h1 {
+    text-align: center;
+    color: #fff;
+    line-height: 100px;
+}
+
+.box input[type="text"] {
+    border: 0;
+    background: none;
+    display: inline-flex;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid;
+    padding: 5px 5px;
+    width: auto;
+    outline: none;
+    border-color: #777;
+    border-radius: 10px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.box input[type="button"] {
+    border: 0;
+    background: none;
+    display: inline-flex;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid;
+    padding: 5px 5px;
+    width: auto;
+    outline: none;
+    border-color: #777;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.box input[type="button"]:hover {
+    border-color: blueviolet;
+
+}
+
+.box input[type="text"]:focus {
+    border-color: blueviolet;
+}
+
+.input_div {
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+
+button {
+    border: 0;
+    border: 2px solid;
+    cursor: pointer;
+    width: 340px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    background: none;
+    border-color: #fff;
+    color: #fff;
+    
+    transition: 0.5s;
+}
+
+button:hover {
+    border-color: blueviolet;
+}
